@@ -17,6 +17,7 @@ Bash iepazīšana
   
 - Shell (basics)
 - Skaitīšanas sistēmas: hexidecimālā un binārā
+- Python
     
 ## Day 05 - Day 06
 ### Topics:
