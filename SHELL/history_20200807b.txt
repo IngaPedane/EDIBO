@@ -1,0 +1,33 @@
+    1  PS1="-->"
+    2  whoami
+    3  who
+    4  exit
+    5  firefox
+    6  ls -l
+    7  git clone http://https://github.com/IngaPedane/EDIBO
+    8  https://github.com/IngaPedane/EDIBO
+    9  git clone https://github.com/IngaPedane/EDIBO
+   10  ls -l
+   11  ls -lt
+   12  ls -lta
+   13  cd EDIBO
+   14  ls -lt
+   15  ls -lta
+   16  ls
+   17  cat README.md
+   18  hexdump -c
+   19  hexdump -C
+   20  hexdump -C README.md
+   21  nano README.md
+   22  history
+   23  history > history_20200807a.txt
+   24  history
+   25  ls -lt
+   26  pwd
+   27  ls -lta
+   28  git config --global user.email inga.pedane@gmail.com
+   29  git add . 
+   30  git commit -m "20200807_13_20_pirmais_upload_no_cli"
+   31  git push origin master
+   32  history
+   33  history > history_20200807b.txt

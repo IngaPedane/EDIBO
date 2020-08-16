@@ -1,0 +1,25 @@
+    1  ls
+    2  ls -tl
+    3  ls -lt
+    4  ls
+    5  ls -l
+    6  whereis ls
+    7  ls /bin/ls
+    8  echo $0
+    9  whereis -l /bin/ls
+   10  ls -l /bin/ls
+   11  ls -l
+   12  /home/user/EDIBO/README.md
+   13  chmod 764 README.md 
+   14  ls -l
+   15  /bin/ls
+   16  cat bin/ls
+   17  cat /bin/ls
+   18  PS1="-->"
+   19  chmod 664 README.md 
+   20  ls -lt
+   21  chmod 644 README.md 
+   22  ls -lt
+   23  history
+   24  pwd
+   25  history > history_20200807c.txt

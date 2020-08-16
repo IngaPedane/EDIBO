@@ -1,0 +1,42 @@
+Programmēšanas "paņēmieni" vai svarīgākās konstrukcijas:
+
+1.a.	Mainīgie - tiek lietoti identifikatori
+		(a, ab, a_b - drīkst), ("a b" - nedrīkst)
+1.b.	Konstantes -"-
+
+2.	Operācijas: =; +; -; *; /; % - atlikums no dalījuma (tas kurš paliek neizdalīts); ...
+		(parasti operācija notiek ar diviem operandiem)
+
+3.a.	Nosacījuma operators - if (var būt ar else, var būt ar elif, ...)
+		(koda izpildes sazarošanai)
+3.b.	Cikla operators - for, while, do ... while
+		(koda daļas izpildīšanas atkārtošanai)
+			(ekvivalents - daudzas manuāli blakus sarakstītas līdzīgas rindas)
+4.	Funkcija - ar vai bez argumentumiem; ar vai bez atgriežamajiem lielumiem
+
+Izmēģināsim dažus no šiem paņēmieniem SHELL-ā:
+	(izmantosim piemērus no www.tutorialspoint.com)
+
+	1. Darbs ar mainīgajiem - Unix/Linux - Using Shell Variables
+		(https://www.tutorialspoint.com/unix/unix-using-variables.htm)
+	2. Darbs ar speciālajiem mainīgajiem - Unix/Linux - Special Variables
+		(https://www.tutorialspoint.com/unix/unix-special-variables.htm)
+	3. Darbs ar mainīgo masīvu - Unix/Linux - Using Shell Arrays
+		(https://www.tutorialspoint.com/unix/unix-using-arrays.htm)
+	4. Darbs ar operācijām - Unix/Linux - Shell Basic Operations
+		(https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
+	5. Darbs ar nosacījumu operatoru - Unix/Linux - Shell Decision Making
+		(https://www.tutorialspoint.com/unix/unix-decision-making.htm)
+	6. Darbs ar cikliem - Unix/Linux - Shell Loop Types
+		(https://www.tutorialspoint.com/unix/unix-shell-loops.htm)
+		(https://www.tutorialspoint.com/unix/unix-loop-control.htm)
+-------------------------------------------------------------------------------------------------------
+Uzrakstīt skriptu, kurš lietotāja ievadīto skaitli pārveido no dec to bin
+-------------------------------------------------------------------------------------------------------
+
+	7. Darbs ar atlikušajām sadaļām no www.tutorialspoint.com
+		(https://www.tutorialspoint.com/unix/unix-shell-substitutions.htm)
+		(https://www.tutorialspoint.com/unix/unix-quoting-mechanisms.htm)
+		(https://www.tutorialspoint.com/unix/unix-io-redirections.htm)
+		(https://www.tutorialspoint.com/unix/unix-shell-functions.htm)
+		...

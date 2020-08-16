@@ -1,0 +1,137 @@
+    1  pwd
+    2  git clone https://github.com/IngaPedane/EDIBO
+    3  pwd
+    4  /home/user/EDIBO/Python/
+    5  ipython
+    6  idle
+    7  pwd
+    8  /home/user/EDIBO/Python/
+    9  idle
+   10  idle &
+   11  pwd
+   12  /home/user/EDIBO/
+   13  cd Python
+   14* 
+   15  cd ./Python
+   16  /home/user/EDIBO/Python/
+   17  nano_milzigs_skaitlis.py
+   18  nano milzigs_skaitlis.py
+   19  ls -lt
+   20  /home/user/EDIBO/Python/
+   21  ls -l
+   22  /home/user/EDIBO/Python/
+   23  ls -l
+   24  pwd
+   25  /home/user/EDIBO/Python/
+   26  ls -l
+   27  pwd
+   28  cd /home/user/EDIBO/Python/
+   29  pwd
+   30  ls -l
+   31  nano milzigs_skaitlis.py
+   32  ls -l
+   33  nano milzigs_skaitlis.py
+   34  chmod 744 milzigs_skaitlis.py 
+   35  ls -l
+   36  nano milzigs_skaitlis.py
+   37  nano milzigs_skaitlis.py
+   38  ./milzigs_skaitlis.py
+   39  nano milzigs_skaitlis.py
+   40  ./milzigs_skaitlis.py
+   41  ./milzigs_skaitlis.py
+   42  nano milzigs_skaitlis.py
+   43  ./milzigs_skaitlis.py
+   44  nano milzigs_skaitlis.py
+   45  ./milzigs_skaitlis.py
+   46  ./milzigs_skaitlis.py
+   47  nano milzigs_skaitlis.py
+   48  ./milzigs_skaitlis.py
+   49  nano milzigs_skaitlis.py
+   50  ./milzigs_skaitlis.py
+   51  nano milzigs_skaitlis.py
+   52  ./milzigs_skaitlis.py
+   53  ./milzigs_skaitlis.py
+   54  nano milzigs_skaitlis.py
+   55  ./milzigs_skaitlis.py
+   56  32
+   57  nano milzigs_skaitlis.py
+   58  ./milzigs_skaitlis.py
+   59  nano milzigs_skaitlis.py
+   60  ./milzigs_skaitlis.py
+   61  nano milzigs_skaitlis.py
+   62  ./milzigs_skaitlis.py
+   63  nano milzigs_skaitlis.py
+   64  ./milzigs_skaitlis.py
+   65  nano milzigs_skaitlis.py
+   66  ./milzigs_skaitlis.py
+   67  ./milzigs_skaitlis.py
+   68  nano milzigs_skaitlis.py
+   69  ./milzigs_skaitlis.py
+   70  ./milzigs_skaitlis.py
+   71  nano milzigs_skaitlis.py
+   72  ./milzigs_skaitlis.py
+   73  nano milzigs_skaitlis.py
+   74  ./milzigs_skaitlis.py
+   75  nano milzigs_skaitlis.py
+   76  ./milzigs_skaitlis.py
+   77  45
+   78  ./milzigs_skaitlis.py
+   79  nano milzigs_skaitlis.py
+   80  ./milzigs_skaitlis.py
+   81  nano milzigs_skaitlis.py
+   82  ./milzigs_skaitlis.py
+   83  nano milzigs_skaitlis.py
+   84  ./milzigs_skaitlis.py
+   85  nano milzigs_skaitlis.py
+   86  ./milzigs_skaitlis.py
+   87  nano milzigs_skaitlis.py
+   88  ./milzigs_skaitlis.py
+   89  nano milzigs_skaitlis.py
+   90  ./milzigs_skaitlis.py
+   91  nano milzigs_skaitlis.py
+   92  ./milzigs_skaitlis.py
+   93  nano milzigs_skaitlis.py
+   94  ./milzigs_skaitlis.py
+   95  nano milzigs_skaitlis.py
+   96  ./milzigs_skaitlis.py
+   97  ./milzigs_skaitlis.py
+   98  nano milzigs_skaitlis.py
+   99  nano milzigs_skaitlis.py
+  100  ./milzigs_skaitlis.py
+  101  nano milzigs_skaitlis.py
+  102  nano milzigs_skaitlis.py
+  103  ./milzigs_skaitlis.py
+  104  nano milzigs_skaitlis.py
+  105  ./milzigs_skaitlis.py
+  106  nano milzigs_skaitlis.py
+  107  ./milzigs_skaitlis.py
+  108  nano milzigs_skaitlis.py
+  109  ./milzigs_skaitlis.py
+  110  nano milzigs_skaitlis.py
+  111  ./milzigs_skaitlis.py
+  112  nano milzigs_skaitlis.py
+  113  ./milzigs_skaitlis.py
+  114  nano milzigs_skaitlis.py
+  115  ./milzigs_skaitlis.py
+  116  pwd
+  117  ls -l
+  118  cd EDIBO
+  119  cd /EDIBO
+  120  pwd
+  121  ../
+  122  ../EDIBO
+  123  .. /EDIBO
+  124  ../ EDIBO
+  125  cd ..
+  126  ls -l
+  127  Python
+  128  /Python
+  129  pwd
+  130  /home/user/EDIBO/Python/
+  131  ls -l
+  132  pwd
+  133  /home/user/EDIBO/Python/
+  134  cd /home/user/EDIBO/Python
+  135  ls -l
+  136  history > history_20200813_a.txt
+  137  history > history_20200813_a.txt

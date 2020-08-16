@@ -1,0 +1,126 @@
+ 1/1: idle
+ 1/2: (exit)
+ 1/3: shell
+ 1/4: bash
+   1: def f(): pass
+   2: f()
+   3: type(f)
+   4: def f(): print("Hello")
+   5: f()
+   6: ls -l
+   7: cat milzigs_skaitlis.py
+   8: cat milzigs_skaitlis.py.save
+   9: rm milzigs_skaitlis.py.save
+  10: ls -l
+  11:
+def g():
+    a=22
+    print(a+3)
+  12: g()
+  13:
+def g(a):
+    print(a+3)
+  14: g()
+  15: g(22)
+  16: g(123)
+  17:
+def g():
+    c = a+3
+    print(c)
+  18: g(123)
+  19:
+def g(a):
+    c = a+3
+    print(c)
+  20: g(123)
+  21:
+def h():
+    a=11; b=22
+    c = a + b
+    print(c)
+  22: h()
+  23:
+def h():
+    a=11
+    b=22
+    c = a + b
+    print(c)
+  24: h()
+  25:
+def h2(a=22,b=33):
+    c = a + b
+    print(c)
+  26: h2()
+  27: h2(3,4)
+  28:
+def f2(a,b):
+    return(a+)
+  29:
+def f2(a,b):
+    return(a+b)
+  30: f2()
+  31: f2(3,4)
+  32: g()
+  33: print(f2(3,4))
+  34: mhdir dev
+  35: cd dev
+  36: ls -l
+  37: pwd
+  38: echo "hello"
+  39: cat aaa.dat
+  40: f = open("aaa.dat")
+  41: f.close()
+  42: f = open("aaa.dat")
+  43: f()
+  44: type(f)
+  45: f.close()
+  46: f = open("aaa.dat")
+  47: f.readlines()
+  48: f.readlines()
+  49: f.close()
+  50: f = open("aaa.dat")
+  51: s = f.readlines()
+  52: f.close()
+  53: s
+  54: prin(s)
+  55: print(s)
+  56: print(s+s)
+  57: print(s,s)
+  58: type(s)
+  59: s[0]
+  60: f = open("aaa.dat")
+  61: f.tell()
+  62: s = f.readlines()
+  63: f.tell()
+  64: f.seek()
+  65: f.seek(0)
+  66: s = f.readlines()
+  67: f.tell()
+  68: f.seek(3)
+  69: s = f.readlines()
+  70: f.readlines()
+  71: f.seek(3)
+  72: f.readlines()
+  73: f.close()
+  74: f = open("aaa.dat","r")
+  75: f.readlines()
+  76: f = open("aaa.dat","w")
+  77: f.readlines()
+  78: f.write(EDIBO)
+  79: f.write("EDIBO")
+  80: f.close()
+  81: f = open("aaa.dat","w")
+  82: f.write("EDIBO\n")
+  83: f.close()
+  84: f.write("EDIBO\n")
+  85: f.closed
+  86: f = open("aaa.dat","w")
+  87: f.write("EDIBO\n")
+  88: f.write("n\n\EDIBO\n")
+  89: f.close()
+  90: cat aaa.dat
+  91: f = open("aaa.dat","a")
+  92: f.write("\n 2020 \n")
+  93: f.close()
+  94: cat aaa.dat
+  95: history -g -f history_ipython_20200813.txt

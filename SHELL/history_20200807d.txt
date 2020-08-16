@@ -1,0 +1,57 @@
+    1  git clone http://github.com/IngaPedane/EDIBO
+    2  pwd
+    3  ls
+    4  cd EDIBO
+    5  LS
+    6  ls
+    7  -lt
+    8  ls -lt
+    9  nano mans_pirmais_skripts.sh
+   10  ls-l
+   11  ls -l
+   12  chmod 744 mans_pirmais_skripts.sh 
+   13  ls -l
+   14  PS1="-->"
+   15  ./mans_pirmais_skripts.sh pwd
+   16  pwd
+   17  n
+   18  PS!="--> "
+   19  PS1="--> "
+   20  ./mans_pirmais_skripts.sh 
+   21  ls -lt
+   22  cd DEF
+   23  /
+   24  cd ABC
+   25  cd -ABC
+   26  cd DEF
+   27  PWD
+   28  pwd
+   29  ls -lt
+   30  cd..
+   31  cd 
+   32  ..
+   33  cd ..
+   34  cd ABC
+   35  LS -LT
+   36  ls -lt
+   37  echo $PATH
+   38  pwd
+   39  cd /home/user/EDIBO/
+   40  pwd
+   41  ls -lt
+   42  PATH=$PATH:./
+   43  n
+   44  echo $PATH
+   45  pwd
+   46  cd user
+   47  cd /user
+   48  pwd
+   49  cd /home/user/
+   50  ls -l/bin
+   51  ls -l /bin
+   52  history
+   53  pwd
+   54  cd /home/user/EDIBO/
+   55* 
+   56* history > 
+   57  history > history_20200807d.txt

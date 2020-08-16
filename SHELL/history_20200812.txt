@@ -1,0 +1,36 @@
+    1  pwd
+    2  python
+    3  python
+    4  ipython
+    5  python
+    6  ipython
+    7  nano first_python_script.pi
+    8  nano first_python_script.py
+    9  rm first_python_script.pi
+   10  nano first_python_script.py
+   11  ls -lt
+   12  ls
+   13  ls -la
+   14  first_python_script.py
+   15  nano first_python_script.py
+   16  python first_python_script.py 
+   17  nano first_python_script.py
+   18  python first_python_script.py 
+   19  python first_python_script.py 
+   20* 
+   21  cp first_python_script.py second_python_script_like_executable.py
+   22  nano second_python_script_like_executable.py
+   23  whereis python
+   24  nano second_python_script_like_executable.py
+   25  chmod 744 second_python_script_like_executable.py 
+   26  ./second_python_script_like_executable.py 
+   27  ls -l
+   28  nano second_python_script_like_executable.py
+   29  ./second_python_script_like_executable.py 
+   30  idle
+   31  idle &
+   32  ls -lt
+   33  cd ..pwd
+   34  cd ..
+   35  pwd
+   36  history > history_20200812.txt

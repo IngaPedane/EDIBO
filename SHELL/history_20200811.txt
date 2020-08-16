@@ -1,0 +1,143 @@
+    1  PS1="* "
+    2  $echo $$
+    3  nano test_special_variables_1.sh
+    4  chmod 744 test_special_variables_1.sh
+    5  ./test_special_variables_1.sh 
+    6  pwd
+    7  ls -l
+    8  nano test.sh
+    9  nano test_variables_1.sh
+   10  nano test_variables_1.sh
+   11  nano test_special_variables_1.sh
+   12  nano test_special_variables_1.sh Zara Ali
+   13  ./test_special_variables_1.sh Zara Ali
+   14  $./test_special_variables_1.sh Zara Ali
+   15  ./test_special_variables_1.sh Zara Ali
+   16  ./test_special_variables_1.sh Zara Ali
+   17  echo $?
+   18  echo $?
+   19  $$
+   20  ps -aux
+   21  $$
+   22  ps -aux | grep 3638
+   23  ps -aux | grep bash
+   24  ps -aux | grep 3270
+   25  $!
+   26  nano test_array_1.sh
+   27  ls -l
+   28  nano test.sh
+   29  ./test_array_1.sh
+   30  chmod 744 test_array_1.sh
+   31  ./test_array_1.sh
+   32   nano test_array_1.sh
+   33  ./test_array_1.sh
+   34   nano test_array_1.sh
+   35  ./test_array_1.sh
+   36  nano test_array_1.sh 
+   37  ./test_array_1.sh
+   38  ls -lt
+   39  nano basic_operators_1.sh
+   40  chmod 744 test_basic_operators_1.sh
+   41  ls -lt
+   42  chmod 744 basic_operators_1.sh
+   43  ./ basic_operators_1.sh
+   44  ./basic_operators_1.sh
+   45  mv basic_operators_1.sh test_basic_operators_1.sh
+   46  ls -lt
+   47  nano test_decision_making_1.sh
+   48  chmod 744 test_decision_making_1.sh 
+   49  ./test_decision_making_1.sh
+   50  nano test_decision_making_1.sh
+   51  ./test_decision_making_1.sh
+   52  nano test_decision_making_1.sh
+   53  ./test_decision_making_1.sh
+   54  nano test_2.sh
+   55  chmod 744 test_2.sh 
+   56  ./test_2.sh
+   57  nano test_2.sh
+   58  ./test_2.sh
+   59  nano test_decision_making_1.sh
+   60  ./test_decision_making_1.sh
+   61  nano test_3.sh
+   62  chmod 744 test_3.sh 
+   63  ./test_3.sh
+   64  nano test_loop_types_1.sh
+   65  chmod 744 test_loop_types_1.sh 
+   66  ./test_loop_types_1.sh
+   67  nano test_loop_types_1.sh
+   68  ./test_loop_types_1.sh
+   69  nano test_loop_types_1.sh
+   70  nano test_loop_types_1.sh
+   71  ./test_loop_types_1.sh
+   72  ls -l
+   73  nano test_2.sh 
+   74  nano test_3.sh 
+   75  nano test.sh 
+   76  nano test_array_1.sh 
+   77  nano test_basic_operators_1.sh 
+   78  nano test_decision_making_1.sh.sh 
+   79  nano test_decision_making_1.sh.sh 
+   80  nano test_decision_making_1.sh 
+   81  ./test_decision_making_1.sh 
+   82  nano test_loop_types_1.sh 
+   83  nano test_special_variables_1.sh 
+   84  nano test_variables_1.sh 
+   85  ls =l
+   86  ls -l
+   87  nano test_loop_control_1.sh 
+   88  chmod 744 test_loop_control_1.sh 
+   89  ./test_loop_control_1.sh 
+   90* 
+   91  ./test_loop_control_1.sh 
+   92  nano test_loop_control_forever.sh 
+   93  chmod 744 test_loop_control_forever.sh 
+   94  ./744 test_loop_control_forever.sh 
+   95  ./test_loop_control_forever.sh 
+   96  history
+   97*  
+   98  nano mans_otrais_skripts.sh
+   99  ls -l
+  100  cat test_loop_control_forever.sh 
+  101  nano mans_otrais_skripts.sh
+  102  history
+  103  pwd
+  104  nano mans_otrais_skripts.sh
+  105  nano mans_otrais_skripts.sh
+  106  nano mans_otrais_skripts.sh
+  107  chmod 744 mans_otrais_skripts.sh
+  108  ./mans_otrais_skripts.sh
+  109  ./mans_otrais_skripts.sh
+  110  nano mans_otrais_skripts.sh
+  111  ./mans_otrais_skripts.sh
+  112  nano mans_otrais_skripts.sh
+  113  ./mans_otrais_skripts.sh
+  114  nano mans_otrais_skripts.sh
+  115  ./mans_otrais_skripts.sh
+  116  nano mans_otrais_skripts.sh
+  117  ./mans_otrais_skripts.sh
+  118  nano mans_otrais_skripts.sh
+  119  ./mans_otrais_skripts.sh
+  120  nano mans_otrais_skripts.sh
+  121  ./mans_otrais_skripts.sh
+  122  nano mans_otrais_skripts.sh
+  123  ./mans_otrais_skripts.sh
+  124  nano mans_otrais_skripts.sh
+  125  nano mans_otrais_skripts.sh
+  126  ./mans_otrais_skripts.sh
+  127  nano mans_otrais_skripts.sh
+  128  ./mans_otrais_skripts.sh 123
+  129  nano mans_otrais_skripts.sh
+  130  ./mans_otrais_skripts.sh 123
+  131  nano mans_otrais_skripts.sh
+  132  ./mans_otrais_skripts.sh 123
+  133  nano mans_otrais_skripts.sh
+  134  ./mans_otrais_skripts.sh 123
+  135  nano mans_otrais_skripts.sh
+  136  ./mans_otrais_skripts.sh 123
+  137  nano mans_otrais_skripts.sh
+  138  y
+  139  ./mans_otrais_skripts.sh 123
+  140  nano mans_otrais_skripts.sh
+  141  ./mans_otrais_skripts.sh 123
+  142  nano mans_otrais_skripts.sh
+  143  history > history_2200811.txt

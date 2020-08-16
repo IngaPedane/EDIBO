@@ -1,0 +1,156 @@
+ 2/1: vars
+ 2/2: vars()
+ 2/3: a=10
+ 2/4: a
+ 2/5: type(a)
+ 2/6: dir(a)
+ 2/7: dir(A)
+ 2/8: a.real
+ 2/9: print(__doc.__)
+2/10: print(a.__doc__)
+ 3/1: ls -lt
+ 4/1: clear
+ 4/2: cd Python/
+ 4/3: ls -l
+ 4/4: less second_python_script_like_executable.py
+ 5/1: 20%6
+ 5/2: 20/6
+ 6/1: a=100
+ 6/2: print(a)
+ 6/3: nano python_script_2.py
+   1:
+if (11 ==11):
+    print: "Vienādi"
+   2:
+if (11 == 11):
+    print: "Vienādi"
+   3:
+if (11 == 11):
+    print: "Vienādi"
+   4:
+if (11 == 11):
+    print:("Vienādi")
+   5:
+if (11 == 12):
+    print:("Vienādi")
+   6:
+if (12 == 11):
+    print:("Vienādi")
+   7:
+if (12 == 11):
+    print("Vienādi")
+else:
+    print("Nevienādi")
+   8: pwd
+   9: cd /home/user/EDIBO/Python/
+  10: pwd
+  11: %save history_ipython_20200812a.txt 1-11
+  12: ls -lt
+  13: cat history_ipython_20200812a.txt.py
+  14:
+if (12 < 11):
+    print("False")
+else:
+    print("True")
+  15:
+if (12 > 11):
+    print("False")
+else:
+    print("True")
+  16:
+if (12 > 11):
+    print("False")
+elif (-3 > 4):
+    print("True")
+  17:
+if (12 < 11):
+    print("False")
+elif (-3 > 4):
+    print("True")
+  18:
+if (12 < 11):
+    print("False")
+elif (-3 < 4):
+    print("True")
+else: 
+    print("BYE BYE")
+  19:
+if (12 < 11):
+    print("False")
+elif (-3 < 4):
+    print("True")
+else: 
+    print("BYE BYE")
+  20:
+if (12 < 11):
+    print("False")
+elif (-3 == 4):
+    print("True")
+else: 
+    print("BYE BYE")
+  21:
+if (a > b):
+    print("False")
+    c=33
+    print("True")
+else: 
+    print("BYE BYE")
+  22: a = 12
+  23: b = 13
+  24:
+if (a > b):
+    print("False")
+    c=33
+    print("True")
+else: 
+    print("BYE BYE")
+  25:
+if (a > b):
+    print("False")
+    c=33
+    print(a**10)
+else: 
+    print("BYE BYE")
+  26:
+if (a < b):
+    print("False")
+    c=33
+    print(a**10)
+else: 
+    print("BYE BYE")
+  27: for i in a: print(a)
+  28: for i in "a": print(a)
+  29: for i in "edibo": print(a)
+  30: for i in "edibo": print(i)
+  31: for k in "edibo": print(i)
+  32: for k in "edibo":print(i)
+  33:
+for k in "edibo":
+    print (k)
+    print (k)
+  34:
+for i in range(10):
+    print (i)
+    print (k)
+  35:
+for i in range(10):
+    print (i)
+  36:
+for i in range(3,15,2):
+    print (i)
+  37:
+for i in range(-20,15,2):
+    print (i)
+  38:
+for i in range(-20,15,2):
+    print (i), print (i)
+  39:
+for i in range(-20,15,2):
+    print (i),(i)
+  40: print ("N=%d"%(a))
+  41: print (" N=%d; S=%s" % (a, b) )
+  42: a="edibo"
+  43: print (" N=%d; S=%s" % (a, b) )
+  44: a=12
+  45: print (" N=%d; S=%s" % (a, b) )
+  46: %history -g -f history_ipython_20200812.txt

@@ -1,0 +1,1 @@
+# Manas piezīmes par Python
