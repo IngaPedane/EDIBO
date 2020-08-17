@@ -24,6 +24,7 @@ done
 
 echo "c mainīgā vērtība pēc cikla: " $c
 echo ' '
+######### Kā izprintēt loop mainīgos vienā rindā? #########
 echo Binārā vērtība skaitlim $1:
 
 until [ "$b" != 0 ]
