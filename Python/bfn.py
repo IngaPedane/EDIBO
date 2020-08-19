@@ -27,3 +27,15 @@ while not check:
 ##### block end
 print(a**100)
 print("Complete.")
+______________________________________________________________________
+check = False
+while not check:
+#    print("Ievadiet skaitli:")
+    try:
+        a=int(input("Ievadiet skaitli: "))
+        check = True
+    except:
+        print("Ievadītā vērtība nav skaitlis! Mēģiniet vēlreiz:")
+        
+print(a*100)
+print("Complete.")
