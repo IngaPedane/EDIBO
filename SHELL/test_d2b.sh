@@ -1,14 +1,12 @@
 #!/bin/bash
 printf "Ievadiet skaitli: "; read a
-#echo  $a
+
 re='^[0-9]+$'
 until [[ $a =~ $re ]]
 do
-  printf "error: Not a number "; read a
+  printf "Error: Ievadītā vērtība nav skaitlis, ievadīt skaitli! "; read a
 done
 b=$a
-#echo "please, enter a number: "; read $2
-#fi
 
 array=()
 
