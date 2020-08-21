@@ -1,0 +1,13 @@
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.exe
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.deps.json
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.runtimeconfig.json
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.runtimeconfig.dev.json
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.dll
+C:\Users\Inga\Documents\D2B_raw\bin\Debug\netcoreapp3.1\D2B_raw.pdb
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.csprojAssemblyReference.cache
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.AssemblyInfoInputs.cache
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.AssemblyInfo.cs
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.csproj.CoreCompileInputs.cache
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.dll
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.pdb
+C:\Users\Inga\Documents\D2B_raw\obj\Debug\netcoreapp3.1\D2B_raw.genruntimeconfig.cache
