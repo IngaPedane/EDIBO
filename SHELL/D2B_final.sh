@@ -4,7 +4,7 @@ printf "Ievadiet skaitli: "; read a
 re='^[0-9]+$'
 until [[ $a =~ $re ]]
 do
-  printf "Error: Ievadītā vērtība nav skaitlis, ievadīt skaitli! "; read a
+  printf "Error: Ievadītā vērtība nav skaitlis! Ievadiet skaitli: "; read a
 done
 b=$a
 
