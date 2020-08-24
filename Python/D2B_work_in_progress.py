@@ -7,8 +7,8 @@ b=a
 
 ######### Pievienot if.. elif.. else.. - ievadīt pozitīvu reālu skaitli!!! #########
 while int(a) != 0:
-    print("Skaitļa",b,"binārā vērtība ir: ", (int(a)%2)) 
-    #print(a)
+#    print("Skaitļa",b,"binārā vērtība ir: ", (int(a)%2)) 
+#    print(a)
     a = int(a/2)
 
 ######### Kā izprintēt loop mainīgos vienā rindā? #########
