@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/user/EDIBO/C#(.NET)/Commander/Commander.csproj",
+  "FilePath": "/home/user/EDIBO/C#(.NET)/WebSocketServer/WebSocketServer.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,7 +14389,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "Commander",
+  "RootNamespace": "WebSocketServer",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
