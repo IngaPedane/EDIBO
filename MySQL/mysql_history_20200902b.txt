@@ -1,0 +1,73 @@
+_HiStOrY_V2_
+use\ db24;
+select\ *\ from\ MyTBL_7;
+SHOW\ CREATE\ TABLE\ MyTBL_7;
+SHOW\ GRANTS;
+SHOW\ TRIGGERS;
+DELIMITER\ $$
+CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A
+FOR\ EACH\ ROW
+BEGIN
+IF\ NEW.Title='ABC'\ THEN
+SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text='aj\ aj\ aj,\ kļūda!';
+END\ IF;
+END;$$
+CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ IF\ NEW.Title='ABC'\ THEN\ SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text='aj\ aj\ aj,\ kļūda!';\ END\ IF;\ END;$$
+DESC\ MyTBL_7A;
+CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ IF\ NEW.Title='ABC'\ THEN\ SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text='aj\ aj\ aj,\ kļūda!';\ END\ IF;\ END;$$
+DESC\ MyTBL_7A;\ \ CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ IF\ NEW.Title='ABC'\ THEN\ SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text='aj\ aj\ aj,\ kļūda!';\ END\ IF;\ END;$$
+DESC\ MyTBL_7A;\ \ CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ IF\ NEW.FName='ABC'\ THEN\ SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text='aj\ aj\ aj,\ kļūda!';\ END\ IF;\ END;$$
+SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;
+;
+$
+$$
+SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;\ \ ;\ $$$
+$$
+SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;\ \ ;\ $$$
+SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;
+$$
+$\ SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;$$
+DESC\ MyTBL_7A;
+$$
+DESC\ MyTBL_7A;$$
+SHOW\ TRIGGERS\ WHERE\ MyTBL_7A;
+$$
+DELIMITER\ ;
+SHOW\ TRIGGERS\ LIKE\ '%MyTBL_7A%';
+SHOW\ TRIGGERS\ LIKE\ '%MyTBL_7A%'\ \134G;
+INSERT\ INTO\ MyTBL_7A\ (FName)\ VALUES\ ('ABC');
+SELECT\ *\ FROM\ MyTBL_7A;
+DROP\ TRIGGER\ MyTBL_7A_guard;
+SHOW\ TRIGGERS\ LIKE\ '%MyTBL_7A%'\ \134G;
+DELIMITER\ $$
+CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ DECLARE\ a\ varchar(100);\ SELECT\ CURRENT_USER()\ INTO\ @a;\ SIGNAL\ SQLSTATE\ '50000';$$\ END;$$
+CREATE\ TRIGGER\ MyTBL_7A_guard\ BEFORE\ INSERT\ ON\ MyTBL_7A\ FOR\ EACH\ ROW\ BEGIN\ DECLARE\ a\ varchar(100);\ SELECT\ CURRENT_USER()\ INTO\ @a;\ SIGNAL\ SQLSTATE\ '50000'\ SET\ message_text=@a;\ END;$$
+SELECT\ *\ FROM\ MyTBL_7A;
+$
+$$
+SELECT\ *\ FROM\ MyTBL_7A;\ $\ $$$
+DELIMITER\ ;
+INSERT\ INTO\ MyTBL_7A\ (FName)\ VALUES\ ('ABC');
+exit;
+source\ script_1.sql;
+exit;
+SHOW\ CREATE\ 'MyTBL_7';
+SHOW\ CREATE\ MyTBL_7;
+SHOW\ CREATE\ TABLE\ MyTBL_7;
+use\ db24;
+SHOW\ CREATE\ TABLE\ MyTBL_7;
+exit;
+use\ db24;
+SHOW\ CREATE\ TABLE\ MyTBL_7;
+exit;
+source\ script_1.sql
+exit;
+source\ script_1.sql
+exit;
+use\ db24;
+SHOW\ CREATE\ TABLE\ MyTBL_7A;
+SHOW\ CREATE\ TABLE\ MyTBL_7;
+exit;
+source\ script_1.sql
+show\ tables;
+exit;
