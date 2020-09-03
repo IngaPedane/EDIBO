@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='02:42:30 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7</ENTRY>
+<ENTRY timestamp='02:42:46 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7_GUARD</ENTRY>
+<ENTRY timestamp='02:42:52 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7_guard</ENTRY>
+<ENTRY timestamp='02:43:05 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7A_guard</ENTRY>
+<ENTRY timestamp='02:46:02 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7A_guard</ENTRY>
+<ENTRY timestamp='~'>SELECTE DATABASE()</ENTRY>
+<ENTRY timestamp='02:46:51 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7A_guard</ENTRY>
+<ENTRY timestamp='~'>SELECTE DATABASE()</ENTRY>
+<ENTRY timestamp='02:47:04 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SHOW CREATE trigger MyTBL_7A_guard</ENTRY>
+<ENTRY timestamp='~'>SELECT DATABASE()</ENTRY>
+<ENTRY timestamp='~'>SELECT current_user()</ENTRY>
+<ENTRY timestamp='02:47:05 PM'>SHOW grants</ENTRY>
+<ENTRY timestamp='02:49:44 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM My_TBL_7</ENTRY>
+<ENTRY timestamp='02:49:47 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM My_TBL_7</ENTRY>
+<ENTRY timestamp='02:50:04 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM My_TBL_7</ENTRY>
+<ENTRY timestamp='02:50:16 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM My_TBL7</ENTRY>
+<ENTRY timestamp='02:50:39 PM'>use db24</ENTRY>
+<ENTRY timestamp='02:50:40 PM'>SELECT * FROM MyTBL_7</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7A</ENTRY>
+<ENTRY timestamp='03:20:50 PM'>use db24</ENTRY>
+<ENTRY timestamp='03:20:51 PM'>SELECT * FROM MyTBL_7 M0&#x0A; JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:21:53 PM'>SELECT * FROM db24.MyTBL_7A</ENTRY>
+<ENTRY timestamp='03:24:04 PM'>SELECT * FROM db24.MyTBL_7</ENTRY>
+<ENTRY timestamp='03:26:45 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; LEFT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:26:56 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:27:07 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; LEFT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:29:47 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; left JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:30:20 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; left JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:30:28 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; RIGHT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:31:17 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; LEFT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:33:01 PM'>use db24</ENTRY>
+<ENTRY timestamp='03:33:02 PM'>SELECT * FROM MyTBL_7 M0&#x0A; LEFT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:33:22 PM'>UPDATE `db24`.`MyTBL_7` SET `fkcolumn4`=&apos;2&apos; WHERE `column3`=&apos;5&apos;</ENTRY>
+<ENTRY timestamp='~'>DELETE FROM `db24`.`MyTBL_7` WHERE `column3`=&apos;15&apos;</ENTRY>
+<ENTRY timestamp='03:33:29 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; LEFT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='03:33:39 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>SELECT * FROM MyTBL_7 M0&#x0A; RIGHT JOIN MyTBL_7A M0A&#x0A; ON M0.fkcolumn4=M0A.ID</ENTRY>
+<ENTRY timestamp='04:31:24 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:31:29 PM'>SELECT * FROM db24.MyTBL_7</ENTRY>
+<ENTRY timestamp='04:31:32 PM'>SELECT * FROM db24.MyTBL_7A</ENTRY>
+<ENTRY timestamp='04:32:28 PM'>use db24</ENTRY>
+<ENTRY timestamp='04:32:29 PM'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>DELIMITER;</ENTRY>
+<ENTRY timestamp='04:33:05 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURN int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='04:33:06 PM'>CREATE FUNCTION MyFUNC_7(solis int) RETURN int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='04:33:07 PM'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:33:07 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:33:08 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:33:57 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:35:28 PM'>use db24</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int(11)&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:37:20 PM'>~</ENTRY>
+<ENTRY timestamp='~'>CREATE FUNCTION MyFUNC_7(solis int) RETURNS int(11)&#x0A;-- izmantošanas piemērs MyFUNC(10);&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(20);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        SET lielums = lielums + mainig1;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END;</ENTRY>
+<ENTRY timestamp='04:42:45 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(1)</ENTRY>
+<ENTRY timestamp='04:43:08 PM'>SELECT * FROM db24.MyTBL_7A</ENTRY>
+<ENTRY timestamp='04:44:02 PM'>SELECT * FROM db24.MyTBL_7</ENTRY>
+<ENTRY timestamp='04:54:08 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP function IF EXISTS `MyFUNC_7`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` FUNCTION `MyFUNC_7`(solis int) RETURNS int(11)&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        IF done THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;        SET lielums = lielums + mainig1;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END</ENTRY>
+<ENTRY timestamp='04:55:31 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP function IF EXISTS `MyFUNC_7`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` FUNCTION `MyFUNC_7`(solis int) RETURNS int(11)&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        IF done OR mainig2 LIKE &quot;Sam&quot; THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;        SET lielums = lielums + mainig1;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums;&#x0A;    &#x0A;END</ENTRY>
+<ENTRY timestamp='04:58:01 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(1)</ENTRY>
+<ENTRY timestamp='04:58:25 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(1)</ENTRY>
+<ENTRY timestamp='04:58:47 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(10)</ENTRY>
+<ENTRY timestamp='04:59:00 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(100)</ENTRY>
+<ENTRY timestamp='04:59:15 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP function IF EXISTS `MyFUNC_7`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` FUNCTION `MyFUNC_7`(solis int) RETURNS int(11)&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        IF done OR mainig2 LIKE &quot;Sam&quot; THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;        SET lielums = lielums + mainig1;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums * solis;&#x0A;    &#x0A;END</ENTRY>
+<ENTRY timestamp='04:59:19 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP function IF EXISTS `MyFUNC_7`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` FUNCTION `MyFUNC_7`(solis int) RETURNS int(11)&#x0A;BEGIN &#x0A;&#x09;DECLARE lielums, done int;&#x0A;    DECLARE mainig1 integer;&#x0A;&#x09;DECLARE mainig2 varchar(10);&#x0A;    &#x0A;    DECLARE cursors_ieksh_tabulas CURSOR FOR SELECT ID, FName FROM MyTBL_7A;&#x0A;    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;&#x0A;    &#x0A;    SET lielums = 0;&#x0A;    SET done = FALSE;&#x0A;    OPEN cursors_ieksh_tabulas;&#x0A;    lasiishanas_cikls: LOOP&#x0A;&#x09;&#x09;FETCH cursors_ieksh_tabulas INTO mainig1, mainig2;&#x0A;        IF done OR mainig2 LIKE &quot;Sam&quot; THEN&#x0A;&#x09;&#x09;&#x09;LEAVE lasiishanas_cikls;&#x0A;&#x09;&#x09;END IF;&#x0A;        SET lielums = lielums + mainig1;&#x0A;&#x09;END LOOP;&#x0A;&#x09;CLOSE cursors_ieksh_tabulas;&#x0A;    &#x0A;    RETURN lielums * solis;&#x0A;    &#x0A;END</ENTRY>
+<ENTRY timestamp='04:59:24 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>SELECT MyFUNC_7(100)</ENTRY>
+<ENTRY timestamp='05:08:58 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE PROCEDURE MyPROC_7 (IN inID INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_7A WHERE ID=@inID;&#x0A;END;</ENTRY>
+<ENTRY timestamp='05:12:26 PM'>USE db24</ENTRY>
+<ENTRY timestamp='05:12:27 PM'>CALL MyPROC_7(1)</ENTRY>
+<ENTRY timestamp='05:12:45 PM'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>DROP procedure IF EXISTS `MyPROC_7`</ENTRY>
+<ENTRY timestamp='~'>USE `db24`</ENTRY>
+<ENTRY timestamp='~'>CREATE DEFINER=`u24`@`%` PROCEDURE `MyPROC_7`(IN inID INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_7A WHERE ID=inID;&#x0A;END</ENTRY>
+<ENTRY timestamp='05:12:52 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CALL MyPROC_7(1)</ENTRY>
+<ENTRY timestamp='05:13:07 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CALL MyPROC_7(3)</ENTRY>
+<ENTRY timestamp='05:14:43 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CREATE PROCEDURE MyPROC_7 (IN inID INT)&#x0A;BEGIN&#x0A;&#x09;SELECT * FROM MyTBL_7A WHERE ID=inID;&#x0A;END;</ENTRY>
+<ENTRY timestamp='05:15:19 PM'>USE db24</ENTRY>
+<ENTRY timestamp='~'>CALL MyPROC_7(2)</ENTRY>
+<ENTRY timestamp='05:16:47 PM'>~</ENTRY>
