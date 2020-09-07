@@ -1,0 +1,30 @@
+    1  cd EDIBO
+    2  ls -lt
+    3  mkdir Angular
+    4  cd Angular/
+    5  cd user
+    6  cd ..
+    7  cd ..
+    8  pwd
+    9  export NVM_DIR="$HOME/.nvm" && ( git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"; cd "$NVM_DIR"; git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`; ) && \. "$NVM_DIR/nvm.sh"
+   10  nvm i 12
+   11  node -v
+   12  npm -v
+   13  export NVM_DIR="$HOME/.nvm"
+   14  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   15  npm install -g @angular/cli
+   16  pwd
+   17  cd ./EDIBO/Angular/
+   18  ng new MyApp1
+   19  cd MyApp1/
+   20  ls -lt
+   21  code .
+   22  ls -lt
+   23  cd ..
+   24  cd MyApp1/
+   25  ls -la
+   26  cd ..
+   27  cd ..
+   28  cd Angular/
+   29  history
+   30  history > history_20200907.txt
